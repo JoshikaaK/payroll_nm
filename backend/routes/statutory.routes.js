@@ -4,10 +4,10 @@ const router = express.Router();
 const {
   saveStatutoryConfig,
   getStatutoryConfig
-} = require("../controllers/statutory.controller");
+} = require("../backend/controllers/statutory.controller");
 
-const protect = require("../middlewares/auth.middleware");
-const authorizeRoles = require("../middlewares/role.middleware");
+const protect = require("../backend/middlewares/auth.middleware");
+const authorizeRoles = require("../backend/middlewares/role.middleware");
 
 // Only SuperAdmin & PayrollAdmin allowed
 router.post(
