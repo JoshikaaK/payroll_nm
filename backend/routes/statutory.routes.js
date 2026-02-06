@@ -18,8 +18,7 @@ router.post(
 );
 
 router.get(
-  "/",+
-
+  "/",
   protect,
   authorizeRoles("SuperAdmin", "PayrollAdmin"),
   getStatutoryConfig
