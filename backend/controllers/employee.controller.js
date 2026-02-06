@@ -1,5 +1,5 @@
-const Employee = require("../models/employee");
-const User = require("../models/user");
+const Employee = require("../models/Employee");
+const User = require("../models/User");
 
 // Create Employee Payroll Profile
 exports.createEmployee = async (req, res) => {

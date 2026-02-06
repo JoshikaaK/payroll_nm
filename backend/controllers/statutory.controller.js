@@ -1,4 +1,4 @@
-const StatutoryConfig = require("../models/statutoryConfig");
+const StatutoryConfig = require("../models/StatutoryConfig");
 
 // Create / Update statutory configuration
 exports.saveStatutoryConfig = async (req, res) => {
